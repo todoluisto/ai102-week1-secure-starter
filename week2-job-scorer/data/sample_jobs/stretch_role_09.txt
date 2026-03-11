@@ -1,0 +1,36 @@
+Senior Data Architect
+
+Global Consulting Firm — Technology Practice
+Multiple US Locations + Remote Options
+Base Salary: $175,000 - $220,000 + consulting bonus
+
+Role Overview:
+We're hiring a Senior Data Architect to join our Technology Practice. You'll work with Fortune 500 clients to design and implement modern data architectures, leading engagements from discovery through delivery.
+
+This is a client-facing role. You'll split your time between hands-on architecture work and advising C-suite executives on data strategy. Travel is expected 30-40% of the time.
+
+Core Responsibilities:
+- Lead data architecture design for enterprise clients across industries
+- Conduct current-state assessments and develop target-state architectures
+- Design data platform solutions on Azure, GCP, or AWS based on client needs
+- Build proof-of-concept implementations using Databricks, Synapse, or BigQuery
+- Create architectural decision records, reference architectures, and best practices
+- Mentor consulting teams and contribute to thought leadership
+- Support pre-sales activities and proposal development
+
+Qualifications:
+- 10+ years in data engineering or data architecture
+- Deep expertise in at least one cloud platform (Azure preferred)
+- Strong skills in Python, SQL, and data modeling
+- Experience with Databricks, Snowflake, or similar platforms
+- Consulting experience or strong client-facing skills
+- Excellent presentation and written communication
+- Understanding of data governance, security, and compliance frameworks
+
+Preferred:
+- Multi-cloud experience (Azure + GCP)
+- Industry certifications (Azure Data Engineer, Databricks, etc.)
+- Published articles or conference presentations
+- Experience with data mesh, data fabric, or similar paradigms
+
+Travel required. Relocation assistance available.

@@ -1,0 +1,34 @@
+Data Engineer II — Google DeepMind
+
+London, UK (Onsite — Visa Sponsorship Available)
+Compensation: Competitive (Google L5 equivalent)
+
+DeepMind is looking for a Data Engineer to support our research teams working on fundamental AI safety and capabilities research. You'll build the data infrastructure that enables groundbreaking experiments in artificial intelligence.
+
+About the Role:
+This is a unique opportunity to work at the intersection of data engineering and cutting-edge AI research. You'll collaborate directly with world-class researchers and help them access, process, and analyze the data they need to push the boundaries of AI.
+
+What You'll Do:
+- Build data pipelines for large-scale ML training datasets
+- Design data infrastructure for experiment tracking and reproducibility
+- Create tools for researchers to access and explore datasets
+- Develop data quality and validation frameworks for ML datasets
+- Support data needs across multiple research programs
+
+What We Need:
+- 4-7 years of data engineering experience
+- Strong Python and SQL skills
+- GCP experience (BigQuery, Dataflow, GCS)
+- Spark or distributed processing experience
+- Experience working with ML teams or research organizations
+- Interest in AI safety and alignment
+
+Nice to Have:
+- Experience with large language model training data
+- Knowledge of dataset curation and documentation practices
+- Apache Beam or Dataflow experience
+- Academic research background
+
+Location: This role is based in our London office. We require onsite presence 4 days per week. We provide visa sponsorship for qualified candidates and offer a comprehensive international relocation package.
+
+Google DeepMind is committed to building AI safely and for the benefit of humanity.

@@ -1,0 +1,31 @@
+Entry-Level Business Intelligence Analyst
+
+Location: Minneapolis, MN (Onsite)
+Salary: $48,000 - $58,000
+
+Great opportunity for a recent graduate! We're a mid-size retail company looking for an enthusiastic entry-level BI Analyst to join our analytics team.
+
+About the Role:
+You'll support our business teams with reporting and data analysis. This is a learning-focused role with structured mentorship and training. No prior professional experience required — just a degree and a willingness to learn.
+
+Day-to-Day:
+- Build and update reports in Power BI
+- Write basic SQL queries to pull data from our warehouse
+- Help maintain our Excel-based reporting templates
+- Assist with monthly business review presentations
+- Data entry and data cleaning tasks
+- Shadow senior analysts on more complex projects
+
+Requirements:
+- Bachelor's degree (2025 or 2026 graduate preferred)
+- Coursework in statistics, business analytics, or related field
+- Basic SQL knowledge (we'll teach you the rest)
+- Excel proficiency
+- Exposure to any BI tool (Power BI, Tableau, Looker)
+- Strong attention to detail
+- Team player with positive attitude
+
+Training Provided:
+We invest heavily in developing our junior talent. You'll receive formal training in SQL, Power BI, and our data warehouse tools during your first 90 days. Each new analyst is paired with a senior mentor for their first year.
+
+Benefits: health insurance, 10 days PTO (increasing to 15 after year 1), 401k, employee discount (25% off all merchandise), casual dress code.

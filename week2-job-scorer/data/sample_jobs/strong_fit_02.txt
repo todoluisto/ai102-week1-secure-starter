@@ -1,0 +1,21 @@
+Lead Data Engineer
+
+Fully Remote | Salary Range: $185K-$225K base + annual bonus
+
+About the Role
+
+Our fintech platform processes over $2B in transactions annually and we need a Lead Data Engineer to own and evolve our data infrastructure. You'll be the technical lead for a team of 4 engineers building next-generation analytics and data products on Azure.
+
+What You'll Do
+
+You will design and implement scalable data architectures using Azure Databricks and Delta Lake. You will build production-grade data pipelines with Python, PySpark, and SQL. You will lead data modeling efforts for our core financial datasets. You will establish best practices for testing, monitoring, and documentation. You will drive migration from legacy on-prem systems to cloud-native solutions. You will collaborate with stakeholders to translate business requirements into technical specs.
+
+What You Bring
+
+8+ years of professional experience in data engineering. Expert-level Python and SQL skills. Production experience with Databricks and Apache Spark. Deep knowledge of Azure ecosystem (Data Factory, Synapse, ADLS). Track record of leading technical projects and mentoring engineers. Strong understanding of data warehousing concepts and dimensional modeling.
+
+Bonus Points
+
+GCP BigQuery or multi-cloud experience. Experience in financial services or fintech. Familiarity with Airflow, dbt, or Great Expectations. Knowledge of data mesh or data fabric architectures.
+
+Equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.

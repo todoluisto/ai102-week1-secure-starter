@@ -1,0 +1,36 @@
+ML Engineer — Recommendation Systems
+
+Location: Seattle, WA (Hybrid)
+Compensation: $190,000 - $240,000 + RSUs
+
+About Us:
+We're building the next generation of personalized shopping experiences. Our recommendation engine drives 35% of revenue for our e-commerce platform.
+
+The Role:
+We're looking for an ML Engineer to bridge our data infrastructure and machine learning capabilities. You'll build the systems that train, deploy, and monitor production ML models at scale.
+
+What You'll Do:
+- Design and build ML pipelines for model training and inference on Azure
+- Develop feature engineering pipelines using Databricks and PySpark
+- Build and maintain feature stores for real-time and batch serving
+- Deploy models using MLflow, Azure ML, and Kubernetes
+- Implement A/B testing infrastructure for model evaluation
+- Optimize model serving latency and throughput
+- Collaborate with data scientists to productionize research models
+
+Requirements:
+- 6+ years in software/data/ML engineering
+- Strong Python skills including ML libraries (scikit-learn, PyTorch, or TensorFlow)
+- Experience with Spark/Databricks for large-scale data processing
+- Familiarity with MLOps tools (MLflow, Kubeflow, or similar)
+- Production experience with cloud platforms (Azure preferred)
+- SQL proficiency for data analysis and feature engineering
+- Understanding of ML fundamentals (training, evaluation, deployment)
+
+Nice to Have:
+- Recommendation systems experience
+- Real-time serving infrastructure (Redis, gRPC)
+- Experience with LLMs or NLP
+- GCP Vertex AI experience
+
+We value diverse backgrounds. If you meet 70% of the requirements, please apply.

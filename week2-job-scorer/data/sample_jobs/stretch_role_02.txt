@@ -1,0 +1,30 @@
+Data Platform Lead
+
+Remote (US) | Reports to VP of Engineering
+Base: $195K-$235K + equity
+
+We're a growth-stage B2B SaaS company (400 employees, $150M ARR) looking for a Data Platform Lead to build and manage our data engineering function from the ground up.
+
+This is a player-coach role. You'll spend about 60% of your time on hands-on engineering and 40% on team leadership, hiring, and strategy.
+
+What You'll Build:
+- A world-class data platform on Azure and Databricks
+- A team of 4-6 data engineers over the next 12 months
+- Data infrastructure supporting product analytics, customer success, and finance
+- Self-serve analytics capabilities for 200+ internal users
+- Data governance framework and data catalog
+
+What We Need:
+- 8+ years of data engineering experience
+- 2+ years of people management or tech lead experience
+- Deep technical skills in Python, SQL, and cloud data platforms
+- Azure and/or GCP experience (we're primarily Azure)
+- Experience building data teams and defining hiring bars
+- Strong opinions on data architecture, loosely held
+- Ability to translate business needs into technical roadmaps
+
+Technical Stack:
+Azure Databricks, ADLS Gen2, Azure Data Factory, dbt, Airflow, Terraform, Python, SQL
+
+The Catch:
+This is as much a leadership role as a technical one. You need to be comfortable context-switching between writing Spark code and running 1:1s with your reports. If you've been a senior IC wanting to move into leadership, this could be your shot.

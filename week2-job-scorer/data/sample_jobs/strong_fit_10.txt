@@ -1,0 +1,27 @@
+SENIOR DATA ENGINEER
+Global Media & Entertainment Company
+Remote (US timezone overlap required)
+
+We're hiring a Senior Data Engineer to join our Streaming Analytics team. Our platform serves 30M+ subscribers and you'll build the data infrastructure behind our content recommendations, viewer engagement analytics, and revenue reporting.
+
+ABOUT THE ROLE
+
+This is a hands-on IC role with significant ownership. You'll work alongside ML engineers, analysts, and product managers to deliver high-quality data products. We value pragmatic engineering over resume-driven development.
+
+YOUR RESPONSIBILITIES
+
+Build and maintain batch and streaming pipelines on Azure Databricks. Develop data models and transformations in Python and SQL. Manage our Azure infrastructure including ADLS Gen2, Event Hubs, and Synapse. Implement automated testing and data quality monitoring. Optimize pipeline performance and reduce cloud costs. Participate in architecture decisions and technical roadmap planning.
+
+REQUIREMENTS
+
+7-10 years of data engineering experience. Expert-level Python and SQL. Deep hands-on experience with Azure Databricks and Delta Lake. Familiarity with streaming architectures (Kafka, Spark Structured Streaming). Experience with infrastructure as code (Terraform). Strong problem-solving skills and attention to detail. Ability to work independently in a remote environment.
+
+BONUS
+
+GCP or AWS secondary cloud experience. Media, entertainment, or content platform background. dbt, Airflow, or Dagster experience. Data visualization tools (Looker, Power BI).
+
+COMPENSATION
+$170,000 - $205,000 base salary
+RSU grants
+Annual bonus target 15%
+Full benefits

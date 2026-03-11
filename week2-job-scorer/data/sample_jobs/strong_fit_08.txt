@@ -1,0 +1,22 @@
+Senior Data Engineer — Advertising Platform
+
+Location: New York, NY (Hybrid) or Remote
+Level: Senior (IC4)
+Salary Band: $180,000 - $220,000 + Performance Bonus
+
+THE COMPANY
+Major digital advertising platform serving 500+ enterprise brands. We process 10B+ ad events daily and our data infrastructure is mission-critical to everything we do.
+
+THE TEAM
+You'll join the Data Platform team (8 engineers) responsible for the core data infrastructure that powers real-time bidding analytics, attribution modeling, and campaign reporting.
+
+WHAT YOU'LL DO
+Design and build high-throughput data pipelines processing billions of events daily. Develop and maintain our Databricks lakehouse on Azure, including Delta Live Tables and streaming workloads. Write performant Python and Scala code for data transformations. Build monitoring and alerting systems for data pipeline health. Optimize query performance across our multi-petabyte data lake. Drive adoption of data engineering best practices across the organization.
+
+WHAT WE'RE LOOKING FOR
+8+ years of data engineering experience in high-volume environments. Deep expertise in Databricks, Apache Spark, and Delta Lake. Strong Python and SQL skills, Scala a plus. Extensive Azure experience (ADLS, Event Hubs, AKS). Experience with real-time/streaming data processing. Comfort with ambiguity and fast-paced environments.
+
+NICE TO HAVE
+Ad tech or martech domain experience. GCP BigQuery or Pub/Sub experience. Apache Kafka or Flink. Experience with data quality frameworks.
+
+We sponsor H1B visas. Comprehensive benefits package.

@@ -1,0 +1,30 @@
+Platform Engineer — Data Infrastructure
+
+Pre-IPO Tech Company | Confidential Search
+Remote or Bay Area
+Compensation: Competitive base + pre-IPO equity
+
+We're conducting a confidential search for a Platform Engineer to join a well-known pre-IPO technology company's data infrastructure team.
+
+About the Team:
+The data infrastructure team owns the core platform that all data practitioners (engineers, analysts, scientists) build on. Think of it as the internal PaaS for data.
+
+What You Might Work On:
+- Internal developer platform for data engineers
+- Compute orchestration and resource management
+- Data catalog and discovery tooling
+- Pipeline observability and monitoring
+- Developer experience and self-serve tooling
+
+The Vague Requirements:
+- "Significant" experience in data or platform engineering
+- Programming experience in Python, Go, or Java
+- Understanding of distributed systems
+- Cloud platform experience
+- Passion for developer experience and internal tooling
+- We're looking for people who have "good judgment"
+
+Process:
+Initial conversation to share company details > Technical phone screen > Virtual onsite (4 rounds) > Team match > Offer
+
+We recognize this posting is intentionally vague. The company is in a quiet period and cannot be named publicly. We'll share full details in a confidential introductory call. If you're currently employed, we respect your privacy and will work around your schedule.

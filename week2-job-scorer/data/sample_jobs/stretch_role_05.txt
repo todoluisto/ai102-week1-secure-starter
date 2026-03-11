@@ -1,0 +1,34 @@
+Senior MLOps Engineer
+
+Location: Boston, MA (Hybrid 2 days/week) or Remote
+Salary: $170,000 - $200,000
+
+We're a biotech company using machine learning to accelerate drug discovery. Our ML platform processes genomic and molecular data at scale to identify promising drug candidates.
+
+The Role:
+We need a Senior MLOps Engineer to build and maintain the infrastructure that enables our data scientists to train, deploy, and monitor ML models efficiently. This role sits at the intersection of data engineering and ML engineering.
+
+What You'll Do:
+- Build ML pipeline infrastructure on Azure (Databricks, Azure ML, AKS)
+- Develop feature engineering pipelines using PySpark and Python
+- Implement model versioning, experiment tracking, and model registry (MLflow)
+- Create automated model retraining and deployment workflows
+- Build monitoring systems for model performance and data drift
+- Manage cloud infrastructure using Terraform and Azure DevOps
+
+Must Have:
+- 6+ years in data engineering, ML engineering, or DevOps
+- Strong Python programming skills
+- Experience with Databricks or Spark for data processing
+- Cloud platform expertise (Azure strongly preferred)
+- SQL skills for data analysis and pipeline development
+- Familiarity with containerization (Docker, Kubernetes)
+
+Nice to Have:
+- ML framework experience (PyTorch, TensorFlow, scikit-learn)
+- Biotech or healthcare background
+- GCP experience
+- Apache Airflow or Prefect
+- Data quality frameworks
+
+We offer equity, comprehensive health benefits, and the chance to work on technology that could save lives.

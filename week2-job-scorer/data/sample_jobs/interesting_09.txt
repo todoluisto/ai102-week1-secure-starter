@@ -1,0 +1,34 @@
+Data Engineer — Planetary Defense (NASA JPL)
+
+Pasadena, CA — Onsite (US Citizenship Required)
+GS-13/14 Equivalent: $120,000 - $160,000
+
+The Jet Propulsion Laboratory, managed by Caltech for NASA, is seeking a Data Engineer to support the Planetary Defense Coordination Office. You'll work on the data systems that track near-Earth objects and assess potential impact threats.
+
+About the Mission:
+Every day, telescopes around the world scan the sky for asteroids and comets that could pose a threat to Earth. The data infrastructure you build will help process observations, compute orbits, and assess impact probabilities for thousands of near-Earth objects.
+
+Responsibilities:
+- Build data pipelines for astronomical observation processing
+- Develop databases for orbital mechanics computations
+- Create data integration systems connecting global telescope networks
+- Maintain and improve the Near-Earth Object database
+- Support mission planning data needs for planetary defense missions
+- Build visualization and reporting tools for impact risk assessment
+
+Requirements:
+- 4+ years of data engineering or scientific computing experience
+- Python programming proficiency
+- SQL and relational database experience
+- Experience with scientific data processing pipelines
+- Understanding of data quality and validation
+- US Citizenship required (security clearance may be needed)
+- BS in Computer Science, Physics, Astronomy, or related field
+
+Nice to Have:
+- Astronomy or astrophysics background
+- GCP or AWS cloud experience
+- Experience with time-series or geospatial data
+- Familiarity with FITS data format
+
+Government pay scale with federal benefits. Unique mission that matters.

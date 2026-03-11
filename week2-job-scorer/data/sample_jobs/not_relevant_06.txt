@@ -1,0 +1,32 @@
+Senior .NET Developer
+
+Location: Charlotte, NC (Onsite — no remote option)
+Salary: $140,000 - $175,000
+
+We're a financial services company with 30+ years in the industry. We're modernizing our core banking platform and need experienced .NET developers to lead the effort.
+
+Responsibilities:
+- Develop and maintain applications using C# and .NET 8
+- Build APIs using ASP.NET Core Web API
+- Design and implement database solutions with SQL Server and Entity Framework
+- Migrate legacy .NET Framework applications to .NET 8
+- Implement Azure DevOps CI/CD pipelines
+- Work with business analysts to translate requirements into technical solutions
+- Lead code reviews and establish development standards
+
+Requirements:
+- 8+ years of C#/.NET development experience
+- Deep knowledge of ASP.NET Core and Entity Framework Core
+- Strong SQL Server skills (T-SQL, stored procedures, performance tuning)
+- Experience with Azure cloud services (App Service, Azure SQL, Service Bus)
+- Familiarity with Angular or Blazor for frontend integration
+- Understanding of SOLID principles and design patterns
+- Experience with Azure DevOps for source control and CI/CD
+
+Nice to Have:
+- Financial services or banking experience
+- Azure certification (AZ-204 or AZ-305)
+- Experience with microservices and containerization
+- Knowledge of regulatory compliance (SOX, PCI-DSS)
+
+Our tech stack is Microsoft-centric. We use C#, .NET, SQL Server, Azure, and Angular. We do not use Python or open-source data tools in our engineering organization.

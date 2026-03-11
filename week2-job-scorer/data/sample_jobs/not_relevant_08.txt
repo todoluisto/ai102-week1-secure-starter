@@ -1,0 +1,35 @@
+Ruby on Rails Developer
+
+Location: Portland, OR (Remote OK)
+Salary: $130,000 - $165,000
+
+We're an e-commerce platform built on Ruby on Rails and we're looking for experienced Rails developers to help us scale.
+
+About Us:
+We've been running on Rails since 2012 and we're proud of it. Our monolith serves 2M+ users and processes thousands of orders daily. We believe in boring technology that works.
+
+What You'll Do:
+- Build new features in our Ruby on Rails monolith
+- Write clean Ruby code with comprehensive RSpec tests
+- Optimize database queries in PostgreSQL
+- Implement background jobs with Sidekiq
+- Build and maintain REST APIs for our mobile apps
+- Improve application performance and reliability
+- Participate in weekly architecture discussions
+
+Requirements:
+- 5+ years of Ruby on Rails development
+- Strong understanding of Ruby language features
+- PostgreSQL expertise (complex queries, indexing, explain plans)
+- Experience with Redis and Sidekiq for background processing
+- Testing discipline (RSpec, Capybara, FactoryBot)
+- Git workflow and code review experience
+- Understanding of web security best practices
+
+Nice to Have:
+- Stimulus/Hotwire experience
+- E-commerce or payments experience
+- DevOps skills (Docker, AWS, Terraform)
+- Performance profiling (rack-mini-profiler, bullet)
+
+We're a Rails shop through and through. Our frontend uses Hotwire and Stimulus — no React, no Node. If you love Ruby and believe in the Rails Way, you'll fit right in.

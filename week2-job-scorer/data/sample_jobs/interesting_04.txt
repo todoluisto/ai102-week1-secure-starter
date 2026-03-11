@@ -1,0 +1,31 @@
+Staff Data Engineer — Apple (Siri & AI/ML)
+
+Cupertino, CA — Onsite (Apple Park)
+Pay Range: $210,000 - $315,000 annually
+
+Apple's Siri and AI/ML organization is seeking a Staff Data Engineer to build the data infrastructure powering next-generation intelligent features across Apple products.
+
+Key Qualifications:
+- 10+ years experience in data engineering at scale
+- Expert-level proficiency in Python, Scala, and SQL
+- Deep experience with Apache Spark and distributed data processing
+- Track record of designing systems processing 100B+ events daily
+- Experience with streaming architectures (Kafka, Flink)
+- Strong data modeling skills (dimensional, graph, event-based)
+- Experience building internal data platforms and developer tools
+- Comfort with ambiguity and large-scale organizational impact
+
+Preferred Qualifications:
+- Experience with ML data infrastructure and feature platforms
+- Knowledge of privacy-preserving data techniques (differential privacy, federated learning)
+- Familiarity with on-device ML data pipelines
+- iOS or macOS development exposure
+- Publications or patents in data systems
+
+Description:
+You will architect and build the data infrastructure that enables millions of Siri interactions to become better over time — while maintaining Apple's industry-leading privacy standards. This includes large-scale data processing, real-time analytics, and privacy-first data pipelines.
+
+Education:
+BS/MS in Computer Science or equivalent. PhD preferred for this level.
+
+Apple is an equal opportunity employer. This role requires onsite presence at Apple Park, Cupertino, CA. Relocation support is available.

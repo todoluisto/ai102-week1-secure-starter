@@ -1,0 +1,32 @@
+Data Engineer — Anthropic
+
+San Francisco, CA (Onsite Preferred, Remote Considered for Exceptional Candidates)
+Compensation: $200K-$300K + generous equity
+
+Anthropic is building reliable, interpretable, and steerable AI systems. We're looking for a Data Engineer to build the infrastructure that supports model training, evaluation, and safety research.
+
+What You'll Work On:
+The data you help process and curate directly influences the behavior and capabilities of our AI models. This includes training data pipelines, evaluation infrastructure, and human feedback data systems.
+
+Responsibilities:
+- Build and maintain large-scale data processing pipelines for model training
+- Develop infrastructure for data curation, filtering, and quality assessment
+- Create tools and workflows for human feedback data collection and processing
+- Build evaluation data infrastructure for model benchmarking
+- Implement data versioning, lineage, and reproducibility
+
+What We're Looking For:
+- 5+ years in data engineering or similar roles
+- Strong Python skills and experience with large-scale data processing
+- Experience with cloud infrastructure (GCP or AWS)
+- Familiarity with ML training data workflows
+- Strong attention to data quality and correctness
+- Ability to work in a fast-paced, research-oriented environment
+
+Nice to Have:
+- Experience with LLM training data pipelines
+- NLP or text processing background
+- Distributed systems expertise
+- Interest in AI safety
+
+We value technical depth, intellectual curiosity, and a genuine concern for building AI that benefits humanity. Onsite work in San Francisco is strongly preferred but we'll consider remote for truly exceptional candidates.

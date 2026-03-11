@@ -1,0 +1,33 @@
+Junior Data Analyst
+
+Location: Atlanta, GA (Hybrid — 3 days onsite)
+Salary: $55,000 - $70,000
+
+We're hiring a Junior Data Analyst to join our business intelligence team. This is an entry-level role perfect for recent graduates or career changers looking to break into data analytics.
+
+What You'll Do:
+- Create and maintain reports and dashboards in Tableau
+- Write basic SQL queries to extract data for analysis
+- Clean and prepare data in Excel and Google Sheets
+- Support monthly and quarterly business reporting
+- Assist senior analysts with ad hoc data requests
+- Document data definitions and report methodologies
+
+Requirements:
+- Bachelor's degree in Business, Statistics, Economics, or related field
+- 0-2 years of experience in data analysis or related work
+- Basic SQL knowledge (SELECT, JOIN, GROUP BY)
+- Proficiency in Excel (pivot tables, VLOOKUP, basic formulas)
+- Experience with at least one BI tool (Tableau, Power BI, or Looker)
+- Strong attention to detail and organizational skills
+- Good written and verbal communication
+
+Nice to Have:
+- Internship experience in data analysis
+- Basic Python or R knowledge
+- Statistics coursework
+- Experience with Google Analytics
+
+This is a great opportunity to start your career in data. We provide mentorship, training budget, and a clear path to Analyst II within 18-24 months. We value curiosity and a willingness to learn over years of experience.
+
+Benefits: health insurance, 15 days PTO, 401k, hybrid work arrangement.

@@ -1,0 +1,31 @@
+Principal Data Engineer
+
+Company: Large Enterprise Software Company
+Location: Redmond, WA or Remote
+Level: Principal (L7)
+Total Compensation: $280,000 - $380,000
+
+We are seeking a Principal Data Engineer to define the technical vision for our global data platform serving 50,000+ internal users and powering critical business operations across 40 countries.
+
+Scope of Impact:
+You will be the senior-most IC in the data engineering organization (60+ engineers). You'll set architectural direction, drive cross-team technical initiatives, and represent data engineering in executive-level discussions.
+
+Key Areas:
+- Define multi-year technical roadmap for data platform evolution
+- Lead architectural decisions for petabyte-scale data systems
+- Drive standardization across data engineering teams globally
+- Evaluate and adopt emerging technologies (lakehouse, data mesh, real-time)
+- Establish engineering excellence standards and best practices
+- Mentor senior and staff-level engineers
+- Represent data engineering in CTO staff meetings
+
+Qualifications:
+- 12+ years of data engineering and architecture experience
+- Track record of driving org-wide technical transformation
+- Expert knowledge of cloud data platforms (Azure, GCP, or AWS)
+- Advanced skills in Python, SQL, Spark, and distributed systems
+- Published thought leadership or conference speaking preferred
+- Experience influencing without authority across large organizations
+- MS or PhD in Computer Science or related field preferred
+
+This is a rare opportunity to shape data engineering at massive scale. We're looking for someone who has "been there, done that" and wants to do it again at an even bigger stage.

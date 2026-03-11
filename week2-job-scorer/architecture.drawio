@@ -1,0 +1,78 @@
+<mxfile host="65bd71144e">
+    <diagram id="architecture" name="Job Scorer Architecture">
+        <mxGraphModel dx="452" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="client_group" value="Client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=1;fontSize=14;spacingTop=5;container=1;collapsible=0;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="490" width="260" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="cli" value="scorer.py&lt;br&gt;CLI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4A90D9;strokeColor=#2E5F8A;fontColor=#ffffff;fontSize=12;" parent="client_group" vertex="1">
+                    <mxGeometry x="20" y="50" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ui" value="app.py&lt;br&gt;Streamlit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4A90D9;strokeColor=#2E5F8A;fontColor=#ffffff;fontSize=12;" parent="client_group" vertex="1">
+                    <mxGeometry x="140" y="50" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="rg_group" value="ai102-rsg-eus · Resource Group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=top;fontStyle=1;fontSize=14;spacingTop=5;container=1;collapsible=0;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="40" width="1100" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="kv" value="ai102-kvt2-eus&lt;br&gt;Key Vault · Standard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8A838;strokeColor=#B07D20;fontColor=#ffffff;fontSize=12;" parent="rg_group" vertex="1">
+                    <mxGeometry x="30" y="60" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="oai" value="ai102-oai-eus&lt;br&gt;Azure OpenAI · S0&lt;br&gt;GPT-4o-mini · East US" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50B86C;strokeColor=#338A4A;fontColor=#ffffff;fontSize=12;" parent="rg_group" vertex="1">
+                    <mxGeometry x="300" y="60" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="oai_fb" value="ai102-oai-ncus&lt;br&gt;Azure OpenAI · S0&lt;br&gt;GPT-4o-mini · North Central US" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50B86C;strokeColor=#338A4A;fontColor=#ffffff;fontSize=12;" parent="rg_group" vertex="1">
+                    <mxGeometry x="600" y="60" width="250" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="fri" value="ai102-fri-eus&lt;br&gt;Document Intelligence · S0&lt;br&gt;prebuilt-layout · East US" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50B86C;strokeColor=#338A4A;fontColor=#ffffff;fontSize=12;" parent="rg_group" vertex="1">
+                    <mxGeometry x="340" y="250" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="law" value="ai102-law2-eus&lt;br&gt;Log Analytics&lt;br&gt;PerGB2018 · East US" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9B59B6;strokeColor=#7D3C98;fontColor=#ffffff;fontSize=12;" parent="rg_group" vertex="1">
+                    <mxGeometry x="790" y="250" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1" value="1a DefaultAzureCredential" style="endArrow=classic;dashed=1;strokeColor=#999999;fontSize=10;" parent="1" source="cli" target="kv" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e2" value="1a DefaultAzureCredential" style="endArrow=classic;dashed=1;strokeColor=#999999;fontSize=10;" parent="1" source="ui" target="kv" edge="1">
+                    <mxGeometry x="0.3151" y="3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e3" value="1b Retrieve API keys" style="endArrow=classic;dashed=1;strokeColor=#999999;fontSize=10;" parent="1" source="kv" target="oai" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e4" value="1b Retrieve API keys" style="endArrow=classic;dashed=1;strokeColor=#999999;fontSize=10;" parent="1" source="kv" target="fri" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e5" value="2 Entra ID token (--auth identity)" style="endArrow=classic;strokeWidth=3;strokeColor=#1a73e8;fontSize=10;" parent="1" source="cli" target="oai" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e6" value="2 Entra ID token" style="endArrow=classic;strokeWidth=3;strokeColor=#1a73e8;fontSize=10;" parent="1" source="cli" target="fri" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e7" value="REST: Parse resume PDF" style="endArrow=classic;strokeColor=#333333;fontSize=10;" parent="1" source="cli" target="fri" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e8" value="SDK: Classify JD" style="endArrow=classic;strokeColor=#333333;fontSize=10;" parent="1" source="cli" target="oai" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e9" value="SDK: Classify JD" style="endArrow=classic;strokeColor=#333333;fontSize=10;" parent="1" source="ui" target="oai" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e10" value="fallback on 429/503" style="endArrow=classic;strokeColor=#333333;fontSize=10;" parent="1" source="oai" target="oai_fb" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e11" value="diag: Audit, Request, Response, Trace" style="endArrow=classic;dashed=1;strokeColor=#9B59B6;fontSize=9;" parent="1" source="oai" target="law" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e12" value="diag logs" style="endArrow=classic;dashed=1;strokeColor=#9B59B6;fontSize=9;" parent="1" source="oai_fb" target="law" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e13" value="diag logs" style="endArrow=classic;dashed=1;strokeColor=#9B59B6;fontSize=9;" parent="1" source="fri" target="law" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

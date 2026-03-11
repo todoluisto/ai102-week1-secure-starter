@@ -1,0 +1,33 @@
+UX/UI Designer — Enterprise SaaS
+
+Location: Remote (US/EU)
+Salary: $120,000 - $155,000
+
+We're hiring a UX/UI Designer to redesign our enterprise analytics dashboard. You'll work closely with product managers and engineers to create intuitive experiences for complex data workflows.
+
+Responsibilities:
+- Lead end-to-end design for our analytics platform UI
+- Conduct user research interviews and usability testing
+- Create wireframes, prototypes, and high-fidelity mockups in Figma
+- Build and maintain our design system and component library
+- Collaborate with frontend engineers on implementation
+- Define interaction patterns for data visualization components
+- Present design decisions to stakeholders and leadership
+
+Requirements:
+- 5+ years of UX/UI design experience
+- Strong portfolio demonstrating enterprise SaaS or dashboard design
+- Expert Figma skills (auto-layout, components, variables)
+- Experience with design systems and component libraries
+- User research skills (interviews, surveys, usability testing)
+- Understanding of data visualization principles
+- Ability to simplify complex workflows into intuitive interfaces
+
+Nice to Have:
+- Experience designing for data-heavy applications
+- Familiarity with accessibility standards (WCAG)
+- Basic HTML/CSS understanding
+- Experience with analytics or BI products
+- Motion design skills (Principle, After Effects)
+
+We use Figma, FigJam, Maze, and Loom as our core design tools. You'll work in a cross-functional squad with a PM, 2 frontend engineers, and a QA engineer. Design has a seat at the table here.

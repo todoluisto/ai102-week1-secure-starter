@@ -1,0 +1,31 @@
+Data Engineer — SpaceX Starlink
+
+Hawthorne, CA (Onsite Only — No Remote)
+Compensation: $140,000 - $175,000
+
+SpaceX is looking for a Data Engineer to support the Starlink constellation operations team. You'll build data systems that monitor and optimize the performance of 5,000+ satellites in orbit.
+
+Responsibilities:
+- Build data pipelines for satellite telemetry data processing
+- Develop real-time monitoring dashboards for constellation health
+- Create analytics infrastructure for network performance optimization
+- Process and analyze orbital mechanics data for mission planning
+- Collaborate with firmware, network, and operations teams
+
+Requirements:
+- 3-6 years of data engineering experience
+- Python and SQL proficiency
+- Experience with cloud data platforms (GCP preferred)
+- Understanding of time-series data and real-time processing
+- Strong problem-solving skills and ability to work in fast-paced environment
+- US Person status required (ITAR compliance)
+
+Nice to Have:
+- Aerospace or telecommunications experience
+- Experience with Kubernetes and containerized workloads
+- Knowledge of Apache Kafka or similar streaming platforms
+- Familiarity with Databricks or Spark
+
+This is a mid-level role. We expect you to grow quickly given the unique challenges. Our engineers work hard — expect 50+ hour weeks during critical mission phases.
+
+We offer medical/dental/vision, stock options, and the chance to work on technology that connects the unconnected. Onsite work in Hawthorne, CA is required — no exceptions.

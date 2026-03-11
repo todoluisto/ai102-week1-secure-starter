@@ -1,0 +1,33 @@
+iOS Engineer — Swift
+
+Location: Cupertino, CA (Onsite)
+Compensation: $175,000 - $225,000 + RSUs
+
+We're building the #1 fitness app in the App Store and need a talented iOS Engineer to help us deliver amazing mobile experiences to 5M+ users.
+
+What You'll Do:
+- Develop new features for our iOS app using Swift and SwiftUI
+- Architect clean, maintainable code following MVVM patterns
+- Integrate with HealthKit, CoreMotion, and Apple Watch APIs
+- Implement smooth animations and transitions
+- Optimize app performance and battery usage
+- Work with our design team on new feature concepts
+- Write unit and UI tests
+
+What We Need:
+- 5+ years of iOS development experience
+- Expert Swift and SwiftUI skills
+- Deep understanding of UIKit for legacy code maintenance
+- Experience with Core Data or SwiftData for local storage
+- Familiarity with Combine or async/await concurrency patterns
+- App Store submission and review process experience
+- Published apps with significant user bases
+
+Nice to Have:
+- HealthKit and fitness data experience
+- Apple Watch (watchOS) development
+- Experience with CI/CD for mobile (Fastlane, Xcode Cloud)
+- GraphQL client-side experience
+- Accessibility and internationalization experience
+
+We ship updates every two weeks and take pride in our 4.8-star App Store rating. If you love building products that help people live healthier lives, this is the role for you.

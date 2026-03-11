@@ -1,0 +1,35 @@
+Senior Frontend Engineer — React/TypeScript
+
+Location: Remote (US)
+Salary: $160,000 - $200,000
+
+We're looking for a Senior Frontend Engineer to join our product team and build beautiful, performant user interfaces for our B2B SaaS platform.
+
+Responsibilities:
+- Build and maintain React components and applications using TypeScript
+- Implement responsive designs from Figma mockups
+- Optimize frontend performance and Core Web Vitals
+- Write unit and integration tests with Jest and React Testing Library
+- Collaborate with designers and backend engineers
+- Contribute to our component library and design system
+- Participate in code reviews and technical discussions
+
+Requirements:
+- 6+ years of frontend development experience
+- Expert-level React and TypeScript skills
+- Strong understanding of HTML, CSS, and modern web standards
+- Experience with state management (Redux, Zustand, or Jotai)
+- Familiarity with Next.js or similar frameworks
+- Experience with REST APIs and GraphQL
+- Understanding of accessibility (WCAG 2.1)
+
+Nice to Have:
+- Experience with Storybook and component-driven development
+- Tailwind CSS experience
+- Animation libraries (Framer Motion)
+- Performance profiling and optimization
+- Micro-frontend architecture experience
+
+Our stack: React, TypeScript, Next.js, Tailwind CSS, GraphQL, Vercel
+
+We're a design-forward company that believes great UX is a competitive advantage. If you're passionate about crafting pixel-perfect interfaces and delightful user experiences, we'd love to hear from you.

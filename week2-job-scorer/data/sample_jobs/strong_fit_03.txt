@@ -1,0 +1,32 @@
+SENIOR DATA ENGINEER — HEALTHCARE DATA PLATFORM
+
+Hybrid (2 days/week in Austin, TX)
+Total Comp: $165K – $195K
+
+Join our mission to transform healthcare through data! We're building a next-gen platform that connects providers, payers, and patients through unified data.
+
+THE ROLE:
+As a Senior Data Engineer you'll be responsible for designing and building data pipelines that process millions of clinical records daily. This is a high-impact role where your work directly affects patient outcomes.
+
+DAY TO DAY:
+* Build and maintain ETL pipelines using Azure Data Factory and Databricks
+* Write clean, tested Python and SQL code for data transformations
+* Design data models for our analytics warehouse on Azure Synapse
+* Implement HIPAA-compliant data handling and security measures
+* Work with data scientists to prepare ML-ready feature stores
+* Participate in on-call rotation for production pipeline support
+
+MUST HAVE:
+* 6-10 years in data engineering
+* Strong Python (pandas, PySpark) and advanced SQL
+* Azure cloud platform experience (ADF, Databricks, ADLS, Synapse)
+* Understanding of healthcare data standards (HL7, FHIR) — or willingness to learn
+* Experience with version control (Git) and CI/CD
+
+NICE TO HAVE:
+* Databricks certified
+* Experience with streaming architectures
+* Previous healthcare or regulated industry background
+* Terraform or Pulumi experience
+
+Benefits include health/dental/vision, 4 weeks PTO, learning budget, and equity in a Series C startup valued at $1.2B.

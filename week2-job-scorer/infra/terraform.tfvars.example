@@ -1,0 +1,7 @@
+subscription_id = "your-subscription-id-here"
+
+# Defaults (uncomment to override)
+# location              = "eastus"
+# fallback_location     = "northcentralus"
+# openai_model_name     = "gpt-4o-mini"
+# openai_model_version  = "2024-07-18"

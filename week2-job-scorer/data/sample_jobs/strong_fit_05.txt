@@ -1,0 +1,27 @@
+Sr. Data Engineer — E-Commerce Analytics
+
+Remote-first company | Base salary $155K-$185K plus bonus
+
+We're a fast-growing e-commerce company doing $500M+ in annual revenue and we need a senior data engineer to help us make better decisions with data.
+
+You'll join a small but mighty data team (3 engineers, 2 analysts, 1 data scientist) and be responsible for building the pipelines and infrastructure that power our analytics.
+
+What we need you to do:
+- Build and optimize data pipelines in Databricks using PySpark and SQL
+- Manage our Azure cloud data infrastructure end to end
+- Create reliable, well-documented data models in our Snowflake warehouse
+- Implement data quality checks and alerting
+- Support real-time data needs for our recommendation engine
+- Work with business teams to understand their data requirements
+
+Who you are:
+- You've been doing data engineering for at least 7 years
+- Python is your primary language and you write it well
+- You know SQL inside and out — complex queries, optimization, the whole deal
+- You've built things on Azure (bonus if also GCP)
+- Databricks/Spark experience is a must
+- You care about code quality and testing
+
+Tech stack: Azure, Databricks, Snowflake, Python, dbt, Airflow, Kafka, Terraform
+
+Perks: Fully remote, flexible hours, quarterly offsites, $2K annual learning budget, generous equity package. We ship fast and trust our engineers to make good decisions.

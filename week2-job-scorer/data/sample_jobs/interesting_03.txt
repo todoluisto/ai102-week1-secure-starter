@@ -1,0 +1,33 @@
+Data Engineer — Climate Analytics Platform
+
+Stripe Climate (subsidiary)
+San Francisco, CA — Onsite Required (relocation package available)
+Compensation: $180,000 - $230,000 + equity
+
+Stripe Climate is building the infrastructure to fund and track permanent carbon removal at scale. We need a Data Engineer to build the data systems that measure, report, and verify carbon removal across our portfolio of frontier projects.
+
+The Impact:
+Your work will directly contribute to scaling carbon removal from thousands of tons to millions. The data infrastructure you build will help allocate hundreds of millions of dollars to the most effective climate solutions.
+
+What You'll Do:
+- Build data pipelines for carbon removal measurement, reporting, and verification
+- Process heterogeneous data from dozens of carbon removal projects worldwide
+- Create analytics infrastructure for portfolio performance tracking
+- Develop data models for carbon credit lifecycle management
+- Build integrations with third-party climate data providers
+
+Requirements:
+- 5+ years of data engineering experience
+- Python and SQL expertise
+- Cloud data platform experience (GCP preferred — we're a GCP shop)
+- Experience with data quality and validation frameworks
+- Strong communication skills for cross-functional collaboration
+- Passion for climate and sustainability (genuine interest, not just a checkbox)
+
+Nice to Have:
+- Environmental science or climate background
+- Experience with geospatial data
+- Databricks or BigQuery experience
+- Knowledge of carbon markets or ESG reporting
+
+Relocation to San Francisco is required for this role. We offer a generous relocation package including temporary housing and moving expenses.

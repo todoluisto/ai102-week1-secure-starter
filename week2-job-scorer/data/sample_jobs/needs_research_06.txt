@@ -1,0 +1,33 @@
+Data Solutions Architect
+
+Global Systems Integrator
+Anywhere in the US | Up to 50% travel
+Base: $160K-$200K + utilization bonus
+
+We help enterprises modernize their data infrastructure. As a Data Solutions Architect, you'll work with clients across industries to design and deliver data platform solutions.
+
+Honestly, the day-to-day varies a lot. Some weeks you're designing architecture diagrams. Other weeks you're writing code. Some months you're on a long-term engagement, other months you're bouncing between pre-sales activities.
+
+Typical Engagements:
+- Cloud data platform migration (on-prem to Azure/GCP/AWS)
+- Data lake/lakehouse design and implementation
+- Data governance and quality assessments
+- Analytics platform modernization
+- Data strategy roadmap development
+
+Skills We Value:
+- Data engineering and architecture background
+- Multi-cloud experience (Azure, GCP, AWS — the more the better)
+- Databricks, Snowflake, or similar platforms
+- Python, SQL, Spark
+- Ability to translate technical concepts for business audiences
+- Comfort with client-facing work and travel
+
+What's Unclear:
+- Specific projects depend on what's sold and staffed
+- Your team varies by engagement
+- Work-life balance depends heavily on the project
+- Utilization targets drive a significant portion of compensation
+- Bench time between projects is common and can feel unproductive
+
+Certifications are valued. We'll pay for Azure, GCP, Databricks, and Snowflake certs. There's a clear promotion path but it's tied to business development contribution.

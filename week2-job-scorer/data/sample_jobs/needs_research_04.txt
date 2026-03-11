@@ -1,0 +1,29 @@
+Data Engineering Lead — Confidential Fintech
+
+Recruiter: Sarah Chen, TechTalent Partners
+Location: Open
+Comp: DOE (we're told it's very competitive)
+
+Hi there! I'm working with an exciting fintech company that's looking for a Data Engineering Lead. My client is a late-stage startup (Series D+) in the payments space and they're building out their data platform team.
+
+Unfortunately I can't share the company name at this stage, but I can tell you:
+
+- They process billions of dollars in transactions annually
+- The engineering team is ~200 people
+- They recently raised a significant round at a $5B+ valuation
+- The data engineering team will grow from 5 to 15 over the next year
+- The role reports to the VP of Engineering
+
+They're looking for someone with:
+- 7+ years data engineering background
+- Cloud platform experience
+- Strong Python and SQL
+- Leadership experience (formal or informal)
+- Ideally fintech or payments experience
+
+The process is: intro call with me (30 min) > hiring manager screen > technical interview > team interviews > offer.
+
+If this sounds interesting, let's chat! I'd love to share more details in a confidential conversation. Even if the timing isn't right, I'd be happy to keep you in mind for future opportunities.
+
+Best,
+Sarah

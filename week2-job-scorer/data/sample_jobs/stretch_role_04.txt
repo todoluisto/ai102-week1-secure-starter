@@ -1,0 +1,36 @@
+Analytics Engineering Manager
+
+Remote First | $175K - $210K base + bonus + equity
+
+About Us
+We're a Series D data observability company. Our product helps data teams trust their data by detecting anomalies, tracking lineage, and measuring data quality across the modern data stack.
+
+About the Role
+We're hiring an Analytics Engineering Manager to lead our internal analytics engineering team (5 engineers). You'll own the data models, metrics definitions, and analytics infrastructure that drive company decisions.
+
+This is a unique opportunity to apply data engineering skills in a management capacity at a company where data quality is literally the product.
+
+Responsibilities:
+- Manage and grow a team of 5 analytics engineers
+- Own our internal dbt project and analytics warehouse architecture
+- Define company-wide metrics and KPI frameworks
+- Build and maintain executive dashboards and self-serve analytics
+- Partner with product, sales, and finance on data needs
+- Drive adoption of analytics engineering best practices
+- Contribute hands-on code when needed (expect ~30% IC work)
+
+Requirements:
+- 7+ years in data/analytics engineering
+- 1+ years managing a technical team
+- Expert SQL and strong Python skills
+- Experience with dbt (this is central to the role)
+- Cloud data platform experience (Databricks, Snowflake, BigQuery)
+- Understanding of data modeling (Kimball, OBT, wide tables)
+- Experience with BI tools (Looker, Tableau, or Power BI)
+
+Nice to Have:
+- Azure and/or GCP hands-on experience
+- Data observability or data quality domain knowledge
+- Experience defining metrics layers (MetricFlow, Cube)
+
+We believe diverse teams build better products.

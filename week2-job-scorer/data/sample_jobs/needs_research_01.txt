@@ -1,0 +1,23 @@
+Data Engineer — Stealth Startup
+
+Location: TBD (Remote possible)
+Compensation: Competitive + significant equity
+
+We're a well-funded stealth startup working on something big in the data infrastructure space. Our founders are ex-FAANG (Google, Meta) and we've raised $30M from top-tier VCs.
+
+We can't share much about what we're building yet, but we need a strong data engineer to join as an early team member. You'll have outsized impact and ownership.
+
+What we can tell you:
+- We're rethinking how companies manage and process data
+- Our approach is novel and we have early design partners at Fortune 100 companies
+- The tech stack involves modern cloud infrastructure and distributed systems
+- You'll work directly with the founding team
+
+What we're looking for:
+- 5+ years building data systems
+- Strong programming skills (Python, SQL, or similar)
+- Cloud experience (any major provider)
+- Entrepreneurial mindset — you thrive in ambiguity
+- Willing to take a bet on something transformative
+
+Interested? We'll share more details after an initial NDA-protected conversation. Reach out with your background and what excites you about early-stage opportunities.

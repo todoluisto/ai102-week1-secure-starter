@@ -1,0 +1,29 @@
+Director of Data Engineering — Databricks
+
+San Francisco, CA (Hybrid)
+Total Comp: $350,000 - $500,000
+
+Databricks is hiring a Director of Data Engineering to lead our internal data platform team. Yes, we use our own product — and we need a leader to ensure we're the best example of what a modern data organization looks like.
+
+About the Role:
+You'll lead a team of 15+ data engineers who build and maintain the internal data infrastructure that powers Databricks' business operations, product analytics, and go-to-market functions. This is a senior leadership role reporting to the VP of Engineering.
+
+Responsibilities:
+- Lead and grow a team of 15+ data engineers across 3 sub-teams
+- Define the strategic vision for internal data infrastructure
+- Drive adoption of lakehouse architecture using Databricks products
+- Partner with Product, Sales, Finance, and Marketing leadership
+- Manage $5M+ annual cloud infrastructure budget
+- Represent the "customer zero" perspective to product teams
+- Build a culture of engineering excellence and innovation
+
+Requirements:
+- 12+ years in data engineering, 5+ years in engineering management
+- Track record of building and scaling data teams (10+ engineers)
+- Deep technical expertise in data platforms and architectures
+- Experience with Databricks (strongly preferred — we eat our own dogfood)
+- Strategic thinker with executive presence
+- P&L or budget management experience
+- MS in Computer Science or equivalent
+
+This is a Director-level role. While the tech stack will feel familiar, the scope is primarily leadership and strategy. Candidates looking for a hands-on IC role should look at our Staff/Principal openings instead.

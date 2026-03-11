@@ -1,0 +1,29 @@
+Technical Lead — Enterprise Data Management
+
+Major Healthcare Organization (Confidential)
+Location: Northeast US (Hybrid)
+Compensation: $155,000 - $190,000
+
+A leading healthcare organization is seeking a Technical Lead for their Enterprise Data Management program. This is a strategic role bridging IT and business in a complex, regulated environment.
+
+The Position:
+You'll lead the technical execution of a multi-year data modernization initiative. The scope includes data warehousing, master data management, data governance, and analytics platform development. This is a high-visibility role with executive stakeholder interaction.
+
+Expected Responsibilities:
+- Lead a team of contractors and FTEs on data platform deliverables
+- Manage technical relationships with vendors (Informatica, Microsoft, others)
+- Translate business requirements into technical architecture
+- Oversee data quality, lineage, and governance implementations
+- Coordinate with compliance and security teams on HIPAA requirements
+- Produce technical documentation and status reporting
+
+Desired Background:
+- 8+ years in data management or engineering roles
+- Experience in healthcare or regulated industries
+- Familiarity with enterprise data tools (Informatica, SSIS, Azure, others)
+- SQL and general programming ability
+- Understanding of data governance frameworks
+- Experience managing vendors and contractor teams
+- PMP, DAMA, or similar certifications are a plus
+
+Note: The hiring organization prefers not to be named at this stage. Additional details will be provided to qualified candidates. The role may involve legacy system work alongside modern platform development. The ratio of strategic vs. tactical work is still being defined.

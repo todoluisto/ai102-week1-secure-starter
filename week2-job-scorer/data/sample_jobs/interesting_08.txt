@@ -1,0 +1,31 @@
+Senior Data Engineer — Figma
+
+New York, NY (Onsite — relocation required)
+Total Compensation: $195,000 - $275,000
+
+Figma is the leading design platform used by millions of designers and developers. We're looking for a Senior Data Engineer to join our Product Analytics team and build the data infrastructure that helps us understand how people design.
+
+What You'll Do:
+- Build the data platform powering product analytics for 4M+ paying users
+- Design and implement event tracking infrastructure at scale
+- Develop data models for user engagement, conversion, and retention analytics
+- Build self-serve data tools for product managers and designers
+- Optimize query performance and data pipeline reliability
+- Contribute to our data governance and privacy compliance efforts
+
+We're Looking For:
+- 7+ years of data engineering experience
+- Expert SQL and strong Python skills
+- Production experience with cloud data platforms (we use GCP/BigQuery)
+- Experience with event-driven architectures and product analytics data
+- Strong data modeling skills
+- Track record of building reliable, well-tested data systems
+
+Nice to Have:
+- Experience at product-led growth companies
+- Design tools or developer tools background
+- dbt experience
+- Streaming data processing (Kafka, Pub/Sub)
+- Familiarity with data privacy regulations (GDPR, CCPA)
+
+Our NYC office is in the heart of Manhattan. This role requires onsite presence — we believe the best collaboration happens in person. We offer a competitive relocation package for candidates moving to New York.

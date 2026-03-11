@@ -1,0 +1,33 @@
+Senior Data Engineer - Data Mesh Implementation
+
+Location: Chicago, IL (Remote OK)
+Compensation: Competitive base + bonus + equity
+
+About the Company:
+Fortune 500 retail company undergoing massive digital transformation. We're moving from a centralized data warehouse to a federated data mesh architecture and need experienced engineers to drive this initiative.
+
+The Role:
+As a Senior Data Engineer, you will be a key contributor to our data mesh implementation, working with domain teams to build self-serve data products. This is a greenfield opportunity to shape the future of data at a company with 100,000+ employees.
+
+Responsibilities:
+- Design and implement data product architectures aligned with data mesh principles
+- Build scalable pipelines using Azure Databricks, Data Factory, and Python
+- Create standardized templates and patterns for domain teams to follow
+- Implement data contracts and quality SLAs between producer and consumer teams
+- Develop self-serve tooling on top of Databricks Unity Catalog
+- Contribute to our internal data platform as a product
+
+Qualifications:
+- 8+ years in data engineering roles
+- Strong Python and SQL expertise
+- Production experience with Azure Databricks and the broader Azure data stack
+- Understanding of data mesh, data products, and domain-driven design
+- Experience building reusable frameworks and developer tooling
+- Excellent written and verbal communication
+
+Preferred:
+- Multi-cloud (Azure + GCP) experience
+- Terraform, Azure DevOps, or GitHub Actions
+- Experience in retail, supply chain, or logistics
+
+Benefits: medical/dental/vision, pension, tuition reimbursement, employee discount.

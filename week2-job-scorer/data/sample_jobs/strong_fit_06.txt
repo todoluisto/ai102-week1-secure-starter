@@ -1,0 +1,35 @@
+Senior Data Engineer II
+
+Department: Data Platform
+Location: Remote (US/Canada)
+Reports to: Director of Data Engineering
+
+Company Overview:
+We are a mid-stage startup in the insurance technology space, backed by Tier 1 VCs with $120M in funding. We're disrupting commercial insurance through data-driven underwriting.
+
+Role Summary:
+We're hiring a Senior Data Engineer II to strengthen our data platform team. You'll build the foundational infrastructure that supports our underwriting models, customer analytics, and regulatory reporting.
+
+Key Responsibilities:
+- Architect and build batch and streaming data pipelines on Azure
+- Develop reusable data transformation libraries in Python
+- Design and maintain dimensional models in our Databricks lakehouse
+- Implement data governance and lineage tracking with Unity Catalog
+- Build and manage CI/CD pipelines for data workloads using Azure DevOps
+- Collaborate with actuarial and data science teams
+
+Required Qualifications:
+- BS/MS in Computer Science, Engineering, or equivalent experience
+- 8+ years of hands-on data engineering experience
+- Proficiency in Python, PySpark, and SQL
+- Experience with Azure services: Databricks, Data Factory, Event Hubs, ADLS
+- Solid understanding of data warehousing and lakehouse patterns
+- Familiarity with version control, testing frameworks, and agile practices
+
+Preferred Qualifications:
+- GCP experience (BigQuery, Dataflow)
+- Insurance or financial services domain knowledge
+- dbt, Great Expectations, or similar tools
+- Apache Kafka or similar streaming platforms
+
+Compensation: $170K-$200K base + equity + benefits

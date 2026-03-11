@@ -1,0 +1,56 @@
+{
+  "status": "OK",
+  "request_id": "sample-request-id",
+  "parameters": {
+    "query": "Microsoft data engineer",
+    "page": 1,
+    "num_pages": 1
+  },
+  "data": [
+    {
+      "job_id": "abc123",
+      "employer_name": "Microsoft",
+      "job_title": "Senior Data Engineer",
+      "job_description": "We are looking for a Senior Data Engineer to join our Azure Data team. You will design and build scalable data pipelines using Azure Data Factory, Databricks, and Synapse Analytics. Requirements: 5+ years experience with Python, SQL, and cloud data platforms. Experience with Apache Spark and real-time streaming preferred.",
+      "job_apply_link": "https://careers.microsoft.com/jobs/12345",
+      "job_google_link": "https://google.com/jobs/12345",
+      "job_posted_at_datetime_utc": "2026-03-08T10:00:00.000Z",
+      "job_city": "Redmond",
+      "job_state": "WA",
+      "job_country": "US",
+      "job_is_remote": false,
+      "job_employment_type": "FULLTIME",
+      "job_publisher": "LinkedIn"
+    },
+    {
+      "job_id": "def456",
+      "employer_name": "Microsoft",
+      "job_title": "Cloud Solutions Architect",
+      "job_description": "Join Microsoft as a Cloud Solutions Architect helping enterprise customers adopt Azure. You will design cloud-native solutions, lead technical workshops, and drive digital transformation. Requirements: 7+ years in cloud architecture, certifications in Azure (AZ-305 preferred), strong communication skills.",
+      "job_apply_link": "https://careers.microsoft.com/jobs/67890",
+      "job_google_link": "https://google.com/jobs/67890",
+      "job_posted_at_datetime_utc": "2026-03-07T14:30:00.000Z",
+      "job_city": "Seattle",
+      "job_state": "WA",
+      "job_country": "US",
+      "job_is_remote": true,
+      "job_employment_type": "FULLTIME",
+      "job_publisher": "Indeed"
+    },
+    {
+      "job_id": "ghi789",
+      "employer_name": "Microsoft",
+      "job_title": "Software Engineer Intern",
+      "job_description": "",
+      "job_apply_link": "https://careers.microsoft.com/jobs/99999",
+      "job_google_link": "",
+      "job_posted_at_datetime_utc": "2026-03-06T09:00:00.000Z",
+      "job_city": "",
+      "job_state": "",
+      "job_country": "US",
+      "job_is_remote": false,
+      "job_employment_type": "INTERN",
+      "job_publisher": "Glassdoor"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+Engineering Manager, Data Platform
+
+Location: Denver, CO (Hybrid) or Remote
+Level: M1 (first-line manager)
+Compensation: $190K-$230K base + bonus + RSUs
+
+Who We Are:
+We're a public cloud security company (4,000+ employees) protecting enterprises from cyber threats. Data is at the core of everything we do — our products analyze billions of security events daily.
+
+The Role:
+We're looking for an Engineering Manager to lead our Data Platform team (7 engineers). You'll be responsible for both the technical direction and the people on the team.
+
+What You'll Do:
+- Manage a team of 7 data engineers across multiple time zones
+- Drive technical roadmap for our Azure-based data platform
+- Partner with product, security research, and ML teams on priorities
+- Own team hiring, performance reviews, and career development
+- Remove blockers and ensure the team ships reliably
+- Stay technically engaged — code reviews, architecture discussions, design docs
+- Manage budget and cloud cost optimization
+
+What We Need:
+- 8+ years in data/software engineering, 2+ years in management
+- Strong technical background in data platforms (Azure, Databricks, Spark)
+- Python and SQL proficiency (you should be able to review PRs meaningfully)
+- Experience running agile teams and managing delivery
+- Track record of growing engineers and building inclusive teams
+- Excellent communication and stakeholder management
+
+Preferred:
+- GCP or multi-cloud experience
+- Security or cybersecurity domain knowledge
+- Experience scaling teams during rapid growth
+
+We know management is hard. We invest heavily in manager development, executive coaching, and peer learning circles.

@@ -1,0 +1,31 @@
+Head of Data Engineering
+
+Series B Climate Tech Startup | Remote (US)
+Compensation: $200K-$240K + significant equity (0.15-0.25%)
+
+We're on a mission to decarbonize the built environment using data and AI. Our platform helps commercial building owners reduce energy consumption by 30-40% through intelligent optimization.
+
+The Opportunity:
+We need our first Head of Data Engineering to build the data function from scratch. You'll be employee #35 and will report directly to the CTO. This is a rare chance to shape a data organization at a company doing genuinely meaningful work.
+
+Year One Goals:
+- Hire and build a team of 3-4 data engineers
+- Architect our data platform on Azure (IoT data from 10,000+ buildings)
+- Build pipelines processing 500M+ sensor readings daily
+- Create the data foundation for our ML-powered optimization engine
+- Establish data governance and quality practices
+
+What We're Looking For:
+- 8+ years of data engineering, with increasing scope and responsibility
+- Strong hands-on skills: Python, SQL, Spark/Databricks
+- Azure cloud experience (IoT Hub, Event Hubs, Databricks, ADLS)
+- Experience building data teams (even small ones)
+- Comfort with ambiguity — we're figuring things out as we go
+- Genuine interest in climate tech and sustainability
+
+Preferred:
+- IoT or time-series data experience
+- GCP experience for multi-cloud flexibility
+- Startup experience (Series A-C stage)
+
+This is a stretch role for a senior IC ready to step into leadership. It's also a leadership role for someone who still wants to write code. We're flexible on background if you bring the right mix of skills and ambition.

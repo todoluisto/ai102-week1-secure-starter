@@ -1,0 +1,36 @@
+Senior Java Backend Engineer
+
+Location: Austin, TX (Hybrid)
+Salary: $155,000 - $195,000
+
+We're looking for a Senior Java Backend Engineer to build and scale our core microservices platform processing millions of API requests daily.
+
+Responsibilities:
+- Design and implement microservices using Java 17+ and Spring Boot
+- Build RESTful APIs and event-driven architectures
+- Optimize application performance and reliability
+- Implement database schemas and queries in PostgreSQL
+- Write comprehensive unit and integration tests with JUnit and Mockito
+- Participate in on-call rotation for production services
+- Mentor junior engineers and conduct code reviews
+
+Requirements:
+- 7+ years of Java development experience
+- Deep expertise in Spring Boot and Spring Framework
+- Experience with microservices architecture and design patterns
+- Strong knowledge of PostgreSQL or similar relational databases
+- Experience with Apache Kafka for event streaming
+- Familiarity with Docker, Kubernetes, and CI/CD
+- Understanding of distributed systems concepts
+
+Tech Stack:
+Java 17, Spring Boot 3, PostgreSQL, Apache Kafka, Redis, Docker, Kubernetes, AWS, Gradle, Jenkins
+
+Nice to Have:
+- Experience with reactive programming (WebFlux)
+- gRPC or Protocol Buffers
+- OpenTelemetry and observability
+- Domain-driven design
+- AWS certification
+
+We do NOT use Python, and our data layer is handled by a separate team. This is a pure backend engineering role focused on application services.

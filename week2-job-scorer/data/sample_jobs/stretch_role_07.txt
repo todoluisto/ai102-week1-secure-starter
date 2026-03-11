@@ -1,0 +1,36 @@
+Data Infrastructure Engineer — Real-Time Systems
+
+Location: Remote (US/EU timezones)
+Comp: $185K - $215K + equity
+
+About the Company:
+We're a fraud detection platform processing financial transactions in real-time. Our system evaluates 50,000+ transactions per second with sub-100ms latency requirements.
+
+The Role:
+We need a Data Infrastructure Engineer focused on our real-time processing layer. This role emphasizes streaming architecture and low-latency systems more than traditional batch data engineering.
+
+Responsibilities:
+- Design and build real-time data pipelines using Apache Kafka and Flink
+- Develop streaming applications in Python and Scala
+- Build and maintain our real-time feature computation engine
+- Optimize data infrastructure for low-latency, high-throughput workloads
+- Implement monitoring, alerting, and observability for streaming systems
+- Contribute to system architecture and capacity planning
+
+Requirements:
+- 7+ years in data or backend engineering
+- Strong experience with streaming frameworks (Kafka, Flink, or Spark Streaming)
+- Proficient in Python and/or Scala
+- Experience with cloud platforms (Azure or GCP preferred)
+- SQL skills and understanding of data modeling
+- Experience with distributed systems at scale
+- Understanding of exactly-once semantics and stream processing guarantees
+
+Nice to Have:
+- Financial services or fraud detection experience
+- Databricks Structured Streaming
+- Real-time ML serving
+- ClickHouse, Druid, or similar OLAP databases
+- Kubernetes and infrastructure as code
+
+This role skews more toward systems engineering than traditional data engineering, but we've found that strong data engineers with streaming interests thrive here.

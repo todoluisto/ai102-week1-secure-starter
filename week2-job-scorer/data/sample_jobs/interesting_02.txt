@@ -1,0 +1,29 @@
+Senior Data Engineer — Netflix (Contract)
+
+Los Gatos, CA or Remote
+Contract: 12 months, potential extension
+Rate: $115-$135/hour via staffing agency
+
+Netflix's Content Analytics team is looking for a contract Senior Data Engineer to support our content valuation and acquisition analytics platform.
+
+About the Work:
+You'll build and maintain the data pipelines that help Netflix decide which shows and movies to produce or license. This involves processing viewership data, content metadata, and financial projections at massive scale.
+
+What You'll Do:
+- Build ETL pipelines using Spark and Python on our cloud platform
+- Develop data models supporting content analytics and financial reporting
+- Optimize query performance on petabyte-scale datasets
+- Partner with data scientists and content strategists
+- Contribute to our internal data platform tools
+
+What You'll Need:
+- 8+ years of data engineering experience
+- Strong Python and SQL skills
+- Spark and distributed processing experience
+- Cloud platform experience (AWS or GCP — we're mostly AWS)
+- Data modeling expertise
+- Ability to work independently with minimal direction
+
+Note: This is a W2 contract through our staffing partner. No direct Netflix benefits. Contract-to-hire conversion is not guaranteed but has happened. You'll work with Netflix teams daily and use Netflix systems.
+
+If you've ever wondered how streaming platforms make billion-dollar content decisions, this is your chance to see the data behind the curtain.

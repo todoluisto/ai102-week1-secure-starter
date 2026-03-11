@@ -1,0 +1,31 @@
+DevOps Engineer — Kubernetes Specialist
+
+Location: Seattle, WA (Hybrid)
+Salary: $165,000 - $200,000
+
+We need a DevOps Engineer who lives and breathes Kubernetes. You'll manage our multi-cluster Kubernetes infrastructure serving 500+ microservices across production, staging, and development environments.
+
+What You'll Do:
+- Manage and optimize multi-cluster Kubernetes deployments on AWS EKS
+- Implement GitOps workflows using ArgoCD and Flux
+- Build and maintain CI/CD pipelines with GitHub Actions
+- Design and implement infrastructure as code with Terraform and Pulumi
+- Manage service mesh (Istio) and API gateway configurations
+- Implement monitoring and alerting (Prometheus, Grafana, PagerDuty)
+- Manage container registry, image scanning, and supply chain security
+- Optimize cloud costs and resource utilization
+
+Requirements:
+- 6+ years in DevOps, SRE, or infrastructure engineering
+- Deep Kubernetes expertise (CKA certification preferred)
+- Strong Terraform and infrastructure as code skills
+- AWS experience (EKS, EC2, VPC, IAM, S3)
+- CI/CD pipeline design and implementation
+- Linux administration and shell scripting (Bash)
+- Networking fundamentals (DNS, load balancing, TLS)
+- Experience with monitoring and observability stacks
+
+Tech Stack:
+AWS, Kubernetes (EKS), Terraform, ArgoCD, GitHub Actions, Prometheus, Grafana, Istio, Helm, Go, Bash
+
+We're an AWS-only shop. No Azure or GCP experience needed. This role is purely infrastructure — no application development or data engineering responsibilities.

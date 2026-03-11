@@ -1,0 +1,27 @@
+data person
+
+we need a data person.
+
+about us: we're a 12-person startup. we just raised our seed round ($4M). we're building tools for small business owners. our product is growing 20% month over month.
+
+the problem: we have data everywhere (postgres, google analytics, stripe, hubspot, intercom, mixpanel) and nobody who knows how to make sense of it all. our CEO is making decisions based on gut feel and we need to change that.
+
+what we need:
+- someone to set up our data infrastructure from scratch
+- pull all our data into one place
+- build dashboards so the team can self-serve
+- maybe some predictive modeling eventually?
+- help us figure out what metrics actually matter
+
+about you:
+- you've worked with data before (how much experience? we're flexible)
+- you can code (python? sql? R? we don't really know what's best)
+- you're comfortable figuring things out on your own
+- you don't need a big team or fancy tools to get things done
+
+comp: $100K-$180K depending on experience + 0.5-1.5% equity
+location: remote, but we're mostly in PST
+
+honestly we're not even sure if we need a "data engineer" or a "data analyst" or a "data scientist" or what. if you're a data person who likes building things from zero, let's talk.
+
+no formal interview process yet. send us a note about a data problem you solved and we'll go from there.

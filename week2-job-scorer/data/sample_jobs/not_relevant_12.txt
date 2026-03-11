@@ -1,0 +1,34 @@
+Salesforce Administrator / Developer
+
+Location: Chicago, IL (Hybrid — 2 days onsite)
+Salary: $95,000 - $125,000
+
+We're a B2B SaaS company looking for a Salesforce Admin/Developer to own our Salesforce instance and support our growing sales and customer success teams.
+
+Responsibilities:
+- Administer and customize our Salesforce Sales Cloud and Service Cloud instances
+- Build custom objects, fields, validation rules, and page layouts
+- Develop Apex triggers, classes, and Visualforce pages
+- Create and maintain Salesforce reports and dashboards
+- Manage user access, profiles, permission sets, and roles
+- Implement and manage Salesforce integrations (HubSpot, Zendesk, NetSuite)
+- Build automated workflows using Flow Builder
+- Support data migration and deduplication efforts
+- Train internal users on Salesforce features and best practices
+
+Requirements:
+- 4+ years of Salesforce administration experience
+- Salesforce Admin (ADM-201) certification required
+- Platform Developer I certification preferred
+- Experience with Apex, SOQL, and Lightning Web Components
+- Understanding of Salesforce data model and security model
+- Experience with Salesforce integrations (REST/SOAP APIs)
+- Strong communication and stakeholder management skills
+
+Nice to Have:
+- Salesforce CPQ experience
+- Pardot or Marketing Cloud experience
+- Experience with MuleSoft or Workato for integrations
+- Additional Salesforce certifications
+
+Our CRM is the backbone of our go-to-market operations. You'll work closely with sales ops, marketing ops, and customer success to ensure Salesforce supports our growth. This is a CRM role, not a data engineering position.

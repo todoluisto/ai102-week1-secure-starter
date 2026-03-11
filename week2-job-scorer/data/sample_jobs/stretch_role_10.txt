@@ -1,0 +1,35 @@
+Senior AI/Data Platform Engineer
+
+Autonomous Vehicle Company | San Jose, CA (Onsite Required)
+Total Comp: $220K-$290K (base + bonus + RSUs)
+
+About Us:
+We're building the software stack for autonomous vehicles. Our perception and planning systems generate terabytes of data per vehicle per day, and we need world-class data infrastructure to make sense of it all.
+
+The Role:
+We're hiring a Senior AI/Data Platform Engineer to build the data foundation that powers our ML training pipelines. You'll work at the intersection of data engineering and AI infrastructure, enabling our ML teams to iterate faster.
+
+What You'll Do:
+- Build large-scale data pipelines for sensor data (LiDAR, camera, radar)
+- Design and implement data lakes on GCP and Azure for multi-petabyte datasets
+- Develop tools for dataset management, versioning, and curation
+- Build feature computation pipelines for ML model training
+- Optimize data storage and retrieval for training workloads
+- Implement data lineage and provenance tracking
+
+Requirements:
+- 7+ years in data engineering or infrastructure engineering
+- Strong Python and SQL skills
+- Experience with distributed data processing (Spark, Databricks, or Beam)
+- Cloud platform experience (GCP and/or Azure)
+- Familiarity with ML training workflows and data requirements
+- Experience handling large-scale unstructured data (images, video, point clouds)
+- Comfort working in a fast-paced, safety-critical environment
+
+Nice to Have:
+- Autonomous vehicle or robotics background
+- Experience with Kubernetes, Ray, or distributed computing frameworks
+- Knowledge of data formats like Parquet, Avro, TFRecord
+- GCS, BigQuery, Dataflow experience
+
+Note: This role requires onsite presence in San Jose. We do not offer remote work for this position.

@@ -1,0 +1,36 @@
+Product Marketing Manager — Developer Tools
+
+Location: San Francisco, CA (Hybrid)
+Compensation: $145,000 - $180,000 + bonus
+
+We're a developer tools company and we need a Product Marketing Manager to help us tell the story of our data platform to engineering audiences.
+
+The Role:
+You'll own the go-to-market strategy for our data engineering product line. This means positioning, messaging, competitive analysis, and sales enablement — all aimed at technical buyers.
+
+Responsibilities:
+- Develop product positioning and messaging for data engineering personas
+- Create technical content (blog posts, whitepapers, case studies)
+- Plan and execute product launches
+- Build competitive intelligence and battle cards
+- Enable sales team with technical talking points and demos
+- Manage analyst relations (Gartner, Forrester)
+- Organize and speak at industry events and conferences
+- Track market trends in data engineering and cloud infrastructure
+
+Requirements:
+- 5+ years of product marketing experience in B2B tech
+- Experience marketing to technical audiences (developers, data engineers)
+- Understanding of the data engineering ecosystem (Databricks, Snowflake, etc.)
+- Excellent writing and presentation skills
+- Data-driven approach to measuring marketing effectiveness
+- Experience with product launches and go-to-market planning
+- BA/BS required, MBA preferred
+
+Nice to Have:
+- Previous engineering or technical background
+- Experience at a data or analytics company
+- Conference speaking experience
+- Familiarity with developer community marketing
+
+This is a marketing role, not an engineering role. You should understand data engineering concepts but you won't be writing code.

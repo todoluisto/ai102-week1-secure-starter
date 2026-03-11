@@ -1,0 +1,29 @@
+Senior Data Engineer — Cloud Infrastructure Team
+
+Location: Remote (US)
+Compensation: $175,000 – $210,000 + equity
+
+We're looking for a Senior Data Engineer to join our Cloud Infrastructure team and help scale our data platform to support 50M+ daily active users. You'll work closely with product, analytics, and ML teams to build robust, scalable data pipelines.
+
+Responsibilities:
+- Design, build, and maintain data pipelines using Azure Data Factory and Databricks
+- Develop and optimize ETL/ELT processes in Python and SQL
+- Architect data lake solutions on Azure Data Lake Storage Gen2
+- Implement data quality frameworks and monitoring
+- Mentor junior engineers and contribute to technical design reviews
+- Partner with analytics teams to define data models and SLAs
+
+Requirements:
+- 7+ years of experience in data engineering or related field
+- Strong proficiency in Python and SQL
+- Deep experience with Azure cloud services (ADF, ADLS, Synapse)
+- Hands-on experience with Databricks (Delta Lake, Spark)
+- Familiarity with CI/CD pipelines and infrastructure as code (Terraform preferred)
+- Experience with streaming data (Kafka, Event Hubs)
+
+Nice to Have:
+- GCP or multi-cloud experience
+- dbt or similar transformation frameworks
+- Experience with data governance tools (Purview, Unity Catalog)
+
+We offer competitive benefits including unlimited PTO, 401k match, and home office stipend. Our engineering culture emphasizes ownership, continuous learning, and collaboration.

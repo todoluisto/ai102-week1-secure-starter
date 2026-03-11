@@ -1,0 +1,35 @@
+Associate Data Engineer — Meta (Threads Team)
+
+Menlo Park, CA or New York, NY (Hybrid — 3 days onsite)
+Salary Range: $125,000 - $165,000
+
+The Threads team at Meta is growing fast and we need data engineers to build the analytics infrastructure for one of the fastest-growing social platforms in history.
+
+About Threads:
+Threads launched in 2023 and has grown to 200M+ monthly active users. We're in a unique position — building a new product with the scale and resources of Meta behind us.
+
+The Role:
+As an Associate Data Engineer, you'll work on the data pipelines that power product analytics, content recommendations, and integrity systems for Threads.
+
+What You'll Do:
+- Build data pipelines using Spark and internal Meta tools
+- Process billions of user interaction events daily
+- Develop data models for product analytics and experimentation
+- Support A/B testing infrastructure
+- Create dashboards and automated reporting
+
+Requirements:
+- 2-4 years of data engineering experience
+- Python and SQL proficiency
+- Experience with distributed data processing (Spark, Hive, Presto)
+- Understanding of data modeling concepts
+- Strong analytical and problem-solving skills
+- BS in Computer Science or related field
+
+Preferred:
+- Experience with large-scale consumer products
+- Knowledge of recommendation systems
+- Familiarity with privacy-preserving analytics
+- Experience with workflow orchestration tools
+
+Note: This is an E4 (Associate) level position. Senior candidates will be considered for E5 (Mid-level) if they have 5+ years of relevant experience. The role is hybrid — onsite presence in either Menlo Park or NYC is required.

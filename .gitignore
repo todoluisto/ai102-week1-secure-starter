@@ -5,5 +5,20 @@
 *.tfvars
 .terraform.lock.hcl
 
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.env
+
+# Editor / tooling
+.vscode/
+.claude/
+
+# Personal documents
+*.pdf
+**/data/evaluation/
+
 # macOS
 .DS_Store

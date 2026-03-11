@@ -1,0 +1,32 @@
+Staff Data Engineer, Platform
+
+Location: San Francisco, CA (Hybrid — 3 days onsite) or Remote for exceptional candidates
+Compensation: $200,000 - $260,000 + RSUs
+
+About Us
+We are a publicly traded enterprise SaaS company with 2,000+ employees serving Fortune 500 clients. Our data platform handles petabyte-scale workloads and we're investing heavily in modernizing our stack.
+
+The Opportunity
+We need a Staff Data Engineer to lead the design and implementation of our next-generation data platform. You will set technical direction for the data engineering org (12 engineers across 3 teams) and be a key partner to our VP of Engineering.
+
+What You'll Own
+- Architecture and roadmap for our Azure-based data platform
+- Migration from legacy Hadoop to Databricks lakehouse architecture
+- Data pipeline framework serving analytics, ML, and product teams
+- Technical standards, code review processes, and engineering excellence
+
+You Should Have
+- 8+ years building and scaling data platforms
+- Expert knowledge of Azure (Data Factory, Databricks, Synapse, ADLS Gen2)
+- Advanced Python and SQL — you write production code, not just prototypes
+- Experience leading cross-functional technical initiatives
+- Solid grasp of distributed systems and performance optimization
+- Strong communication skills for technical and non-technical audiences
+
+Preferred
+- GCP or AWS experience for multi-cloud strategy
+- Unity Catalog, Delta Live Tables
+- Data mesh or domain-oriented data architecture experience
+- Spark performance tuning at scale
+
+Interview: Technical screen → System design → Team panel → Exec chat
