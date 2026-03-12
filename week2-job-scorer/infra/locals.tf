@@ -13,6 +13,12 @@ locals {
   # Fallback resources (North Central US)
   openai_fallback_name = "${var.project}-oai-${var.fallback_region_short}"
 
+  # Function App resources
+  storage_account_name  = "${var.project}stg${var.region_short}"
+  cosmos_account_name   = "${var.project}-cosmos-${var.region_short}"
+  app_service_plan_name = "${var.project}-asp-${var.region_short}"
+  function_app_name     = "${var.project}-func-${var.region_short}"
+
   common_tags = {
     project = var.project
     week    = "2"

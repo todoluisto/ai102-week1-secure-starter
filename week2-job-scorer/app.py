@@ -10,11 +10,15 @@ Provides:
 
 import json
 import logging
+import os
 import tempfile
+from datetime import date
 from pathlib import Path
 
 import streamlit as st
+from azure.identity import DefaultAzureCredential
 
+from src.cosmos_store import query_results, upsert_job_result
 from src.gap_analyzer import GapAnalysisResult
 from src.job_analyzer import ClassificationResult
 from src.job_fetcher import JobSearchFilters, fetch_jobs
@@ -40,6 +44,14 @@ if "secrets" not in st.session_state:
     st.session_state.secrets = None
 if "search_results" not in st.session_state:
     st.session_state.search_results = []
+if "cosmos_ready" not in st.session_state:
+    st.session_state.cosmos_ready = False
+if "cosmos_endpoint" not in st.session_state:
+    st.session_state.cosmos_endpoint = None
+if "cosmos_credential" not in st.session_state:
+    st.session_state.cosmos_credential = None
+if "past_results" not in st.session_state:
+    st.session_state.past_results = []
 
 # ─── Sidebar: Configuration + Resume Upload ──────────────────────
 with st.sidebar:
@@ -57,6 +69,18 @@ with st.sidebar:
             try:
                 st.session_state.secrets = _get_secrets(vault_url)
                 st.success("Connected to Azure services")
+
+                # Set up Cosmos DB connection
+                cosmos_ep = (
+                    st.session_state.secrets.get("cosmos-endpoint")
+                    or os.environ.get("COSMOS_ENDPOINT")
+                )
+                if cosmos_ep:
+                    st.session_state.cosmos_endpoint = cosmos_ep
+                    st.session_state.cosmos_credential = DefaultAzureCredential()
+                    st.session_state.cosmos_ready = True
+                else:
+                    st.session_state.cosmos_ready = False
             except Exception as e:
                 st.error(f"Connection failed: {e}")
 
@@ -99,6 +123,11 @@ with st.sidebar:
         with st.expander("Full Skills"):
             st.write(", ".join(profile.skills))
 
+    if st.session_state.cosmos_ready:
+        st.caption("Cosmos DB: connected")
+    elif st.session_state.secrets:
+        st.caption("Cosmos DB: not configured")
+
 # ─── Main Area: Job Classification ───────────────────────────────
 st.title("Job Opportunity Scorer")
 
@@ -109,6 +138,45 @@ if not st.session_state.secrets:
 if not st.session_state.profile:
     st.info("Upload and parse your resume in the sidebar first.")
     st.stop()
+
+
+def _persist_to_cosmos(
+    result: ClassificationResult,
+    job_title: str,
+    company: str | None,
+    source_url: str,
+    gap: GapAnalysisResult | None = None,
+    search_query: str = "",
+    listing_extra: dict | None = None,
+):
+    """Save a classification result to Cosmos DB. Silently skips if not configured."""
+    if not st.session_state.cosmos_ready:
+        return
+    try:
+        listing = {
+            "title": job_title or "Untitled",
+            "company": company or "Unknown",
+            "url": source_url or "",
+        }
+        if listing_extra:
+            listing.update(listing_extra)
+
+        classification_dict = result.model_dump()
+        gap_dict = gap.model_dump() if gap else {}
+
+        upsert_job_result(
+            endpoint=st.session_state.cosmos_endpoint,
+            credential=st.session_state.cosmos_credential,
+            db="jobscorer",
+            container="results",
+            listing=listing,
+            classification=classification_dict,
+            gap=gap_dict,
+            search_query=search_query,
+            run_date=date.today().isoformat(),
+        )
+    except Exception as e:
+        logging.getLogger(__name__).warning("Cosmos DB save failed: %s", e)
 
 
 def _display_gap_analysis(gap: GapAnalysisResult):
@@ -147,6 +215,8 @@ def _display_result(
     company: str | None,
     source_url: str,
     gap: GapAnalysisResult | None = None,
+    search_query: str = "",
+    listing_extra: dict | None = None,
 ):
     """Display classification results, optional gap analysis, and save to history."""
     COLORS = {1: "green", 2: "blue", 3: "orange", 4: "violet", 5: "red"}
@@ -189,9 +259,12 @@ def _display_result(
     entry["gaps_matched"] = len(gap.matched_skills) if gap else 0
     st.session_state.history.append(entry)
 
+    # Persist to Cosmos DB
+    _persist_to_cosmos(result, job_title, company, source_url, gap, search_query, listing_extra)
+
 
 # ─── Tabbed Input: URL, Paste, or Search ─────────────────────────
-tab_url, tab_paste, tab_search = st.tabs(["From URL", "Paste Text", "Search Jobs"])
+tab_url, tab_paste, tab_search, tab_past = st.tabs(["From URL", "Paste Text", "Search Jobs", "Past Results"])
 
 with tab_url:
     job_url = st.text_input(
@@ -383,9 +456,90 @@ with tab_search:
                             deployment_name=deployment,
                             use_identity=use_identity,
                         )
-                        _display_result(result, listing.title, None, listing.company, listing.url, gap=gap)
+                        _display_result(
+                            result, listing.title, None, listing.company, listing.url,
+                            gap=gap,
+                            search_query=search_company,
+                            listing_extra={
+                                "location": listing.location,
+                                "employment_type": listing.employment_type,
+                                "date_posted": listing.date_posted or "",
+                            },
+                        )
                     except Exception as e:
                         st.error(f"Failed to classify '{listing.title}': {e}")
+
+with tab_past:
+    if not st.session_state.cosmos_ready:
+        st.info("Cosmos DB is not configured. Connect to Azure with a valid cosmos-endpoint secret to browse past results.")
+    else:
+        col_f1, col_f2 = st.columns(2)
+        with col_f1:
+            past_date_from = st.date_input("From date", value=None, key="past_date_from")
+            past_company = st.text_input("Company filter", key="past_company")
+        with col_f2:
+            past_date_to = st.date_input("To date", value=None, key="past_date_to")
+            past_category = st.selectbox(
+                "Category",
+                [None, 1, 2, 3, 4, 5],
+                format_func=lambda x: "All" if x is None else {
+                    1: "1. Apply Now",
+                    2: "2. Strong Match",
+                    3: "3. Worth Exploring",
+                    4: "4. Stretch Role",
+                    5: "5. Skip",
+                }.get(x, str(x)),
+                key="past_category",
+            )
+
+        if st.button("Load Results", type="primary"):
+            with st.spinner("Querying Cosmos DB..."):
+                try:
+                    results = query_results(
+                        endpoint=st.session_state.cosmos_endpoint,
+                        credential=st.session_state.cosmos_credential,
+                        db="jobscorer",
+                        container="results",
+                        date_from=past_date_from.isoformat() if past_date_from else None,
+                        date_to=past_date_to.isoformat() if past_date_to else None,
+                        company=past_company or None,
+                        category=past_category,
+                    )
+                    st.session_state.past_results = results
+                    if not results:
+                        st.warning("No results found for the given filters.")
+                    else:
+                        st.success(f"Loaded {len(results)} result(s)")
+                except Exception as e:
+                    st.error(f"Query failed: {e}")
+                    st.session_state.past_results = []
+
+        if st.session_state.past_results:
+            display_past = []
+            for r in st.session_state.past_results:
+                display_past.append({
+                    "Date": r.get("run_date", ""),
+                    "Title": r.get("title", ""),
+                    "Company": r.get("company", ""),
+                    "Category": f"{r.get('category_id', '?')}. {r.get('category_name', '')}",
+                    "Confidence": r.get("confidence", ""),
+                    "Match %": r.get("skills_match_pct", 0),
+                    "Matched": r.get("matched_skills_count", 0),
+                    "Gaps": r.get("missing_skills_count", 0),
+                    "Action": r.get("suggested_action", ""),
+                })
+            st.dataframe(display_past, use_container_width=True)
+
+            for i, r in enumerate(st.session_state.past_results):
+                with st.expander(f"{r.get('title', 'Untitled')} — {r.get('company', '')}"):
+                    st.markdown(f"**Reasoning:** {r.get('reasoning', '')}")
+                    st.markdown(f"**Gap Summary:** {r.get('gap_summary', '')}")
+                    if r.get("gap_recommendations"):
+                        st.markdown("**Recommendations:**")
+                        for rec in r["gap_recommendations"]:
+                            st.markdown(f"- {rec}")
+                    if r.get("url"):
+                        st.markdown(f"[View Listing]({r['url']})")
 
 # ─── History Table ────────────────────────────────────────────────
 if st.session_state.history:

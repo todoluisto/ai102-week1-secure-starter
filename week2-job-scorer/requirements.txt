@@ -26,5 +26,11 @@ beautifulsoup4>=4.12.0
 # HTTP client for job search API
 requests>=2.31.0
 
+# Cosmos DB persistence
+azure-cosmos>=4.7.0
+
+# Blob Storage for config
+azure-storage-blob>=12.19.0
+
 # Testing
 pytest>=8.0.0

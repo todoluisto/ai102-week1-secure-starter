@@ -81,3 +81,25 @@ resource "azurerm_key_vault_secret" "doc_intel_endpoint" {
 
   depends_on = [azurerm_role_assignment.kv_secrets_officer]
 }
+
+# ─── Cosmos DB Endpoint Secret ───────────────────────────────────
+resource "azurerm_key_vault_secret" "cosmos_endpoint" {
+  name         = "cosmos-endpoint"
+  value        = azurerm_cosmosdb_account.main.endpoint
+  key_vault_id = azurerm_key_vault.main.id
+  content_type = "text/plain"
+  tags         = local.common_tags
+
+  depends_on = [azurerm_role_assignment.kv_secrets_officer]
+}
+
+# ─── Storage Connection String Secret ─────────────────────────────
+resource "azurerm_key_vault_secret" "storage_connection_string" {
+  name         = "storage-connection-string"
+  value        = azurerm_storage_account.functions.primary_connection_string
+  key_vault_id = azurerm_key_vault.main.id
+  content_type = "text/plain"
+  tags         = local.common_tags
+
+  depends_on = [azurerm_role_assignment.kv_secrets_officer]
+}

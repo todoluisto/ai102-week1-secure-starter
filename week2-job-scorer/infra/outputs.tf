@@ -37,3 +37,18 @@ output "log_analytics_workspace_id" {
   description = "Log Analytics workspace ID for queries"
   value       = azurerm_log_analytics_workspace.main.workspace_id
 }
+
+output "cosmos_endpoint" {
+  description = "Cosmos DB account endpoint"
+  value       = azurerm_cosmosdb_account.main.endpoint
+}
+
+output "storage_account_name" {
+  description = "Storage account name for Function App config"
+  value       = azurerm_storage_account.functions.name
+}
+
+output "function_app_hostname" {
+  description = "Function App default hostname"
+  value       = azurerm_linux_function_app.main.default_hostname
+}

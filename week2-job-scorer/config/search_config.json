@@ -1,0 +1,15 @@
+{
+  "vault_url": "https://ai102-kvt2-eus.vault.azure.net/",
+  "searches": [
+    {
+      "company": "Microsoft",
+      "keywords": "data engineer",
+      "max_results": 10
+    },
+    {
+      "company": "Google",
+      "keywords": "ML engineer",
+      "max_results": 5
+    }
+  ]
+}

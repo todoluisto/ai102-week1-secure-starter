@@ -49,6 +49,7 @@ def _get_secrets(vault_url: str) -> dict[str, str]:
         "doc-intel-key",
         "doc-intel-endpoint",
         "rapidapi-key",
+        "cosmos-endpoint",
     ]
 
     secrets = {}
